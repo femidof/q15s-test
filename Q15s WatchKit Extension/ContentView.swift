@@ -37,13 +37,14 @@ struct ContentView: View {
                 .padding()
             Toggle("Q15", isOn: $q15)
                
-            Toggle("RQ15", isOn: $rq15) .toggleStyle(SwitchToggleStyle(tint: .red))
-            
-            Toggle("Q4", isOn: $q4)
-            
-            Toggle("Crucial", isOn: $crucial) .toggleStyle(SwitchToggleStyle(tint: .red))
-            
-            
+//            Toggle("RQ15", isOn: $rq15) .toggleStyle(SwitchToggleStyle(tint: .red))
+//
+//            Toggle("Q4", isOn: $q4)
+//
+//            Toggle("Crucial", isOn: $crucial) .toggleStyle(SwitchToggleStyle(tint: .red))
+            Button("BUTTON") {
+                WKInterfaceDevice.current().play(.success)
+            }
             
             
             if q15 {
@@ -53,20 +54,34 @@ struct ContentView: View {
                 
                 let mainValue = arraySplitTime[1]
                 Text(mainValue)
-                if mainValue == "00"
-                {
+                    .task {
+                        if mainValue == "42" {
+                            WKInterfaceDevice.current().play(.success)
+                        }
+                        if mainValue == "43" {
+                            WKInterfaceDevice.current().play(.success)
+                        }
+                        if mainValue == "44" {
+                            WKInterfaceDevice.current().play(.success)
+                        }
+                        if mainValue == "45" {
+                            WKInterfaceDevice.current().play(.success)
+                        }
+                    }
+//                if mainValue == "00"
+//                {
 //                    Vibrate
-                    WKInterfaceDevice.currentDevice().playHaptic(.Success)
-                    
-                } else if mainValue == "15"
-                {
-//                    Vibrate
-                } else if mainValue == "30"
-                {
-//                    Vibrate
-                } else if mainValue == "45"{
-//                    Vibrate
-                }
+//                    WKInterfaceDevice.currentDevice().playHaptic(.Success)
+//                    WKInterfaceDevice.currentDevice().playHaptic(.Click)
+//                } else if mainValue == "15"
+//                {
+////                    Vibrate
+//                } else if mainValue == "30"
+//                {
+////                    Vibrate
+//                } else if mainValue == "45"{
+////                    Vibrate
+//                }
             }
             
             if rq15 {

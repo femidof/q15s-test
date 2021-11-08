@@ -411,12 +411,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Q15s WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 99UUD38R79;
+				DEVELOPMENT_TEAM = HUW9W9K3LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Q15s WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Q15s WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Q15s_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,7 +425,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.femidof.Q15s.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charan.Q15s.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -443,12 +443,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Q15s WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 99UUD38R79;
+				DEVELOPMENT_TEAM = HUW9W9K3LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Q15s WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Q15s WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Q15s_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,7 +457,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.femidof.Q15s.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charan.Q15s.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -476,13 +476,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8C3ZTP7M84;
+				DEVELOPMENT_TEAM = HUW9W9K3LV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Q15s_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Q15s WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.femidof.Q15s.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charan.Q15s.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -501,13 +501,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8C3ZTP7M84;
+				DEVELOPMENT_TEAM = HUW9W9K3LV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Q15s_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Q15s WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.femidof.Q15s.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charan.Q15s.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -523,9 +523,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8C3ZTP7M84;
+				DEVELOPMENT_TEAM = HUW9W9K3LV;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.femidof.Q15s;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charan.Q15s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -536,7 +536,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8C3ZTP7M84;
+				DEVELOPMENT_TEAM = HUW9W9K3LV;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.femidof.Q15s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
